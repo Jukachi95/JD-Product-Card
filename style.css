@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+    /* background: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); */
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.card-container{
+   background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+   height: 390px;
+   width: 1045px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.card-container .image-container{
+    height: 390px;
+    display: flex;
+    flex: 1;
+    
+}
+
+.card-container .image-container img{
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+
+#model__1{
+    background: url('./model1.jpg');
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#model__2{
+    background: url('./model2.jpg');
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(80%);
+    /* margin-left: -3px; */
+    background-size: cover;
+}
+.card-container .text-container{
+    margin-left: 30px;
+    margin-top: 10px;
+    max-height:100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+/* .text-container{
+    
+    
+} */
+
+.text-container h1{
+    font-family: 'Inter'
+}
+
+.text-container h4{
+    font-family: 'Work Sans';
+    color: 	#F08080;
+}
+
+/* .text-container a{
+    margin-bottom: 20px;
+} */
+
+#btn_1{
+    color: #fff;
+    background-color: #000;
+   text-transform: uppercase;
+   font-family: 'Inter';
+   border-color: #000;
+   border-width: 2px;
+   border-style: solid;
+   font-weight: 500;
+   padding: 8px 14px;
+}
+
+#btn_2{
+    color: #000;
+    background-color: #fff;
+   text-transform: uppercase;
+   font-family: 'Inter';
+   border-color: #000;
+   border-width: 2px;
+   border-style: solid;
+   font-weight: 500; 
+   padding: 8px 25px;
+   margin-left: 17px;
+}
+
+.text-container h4{
+    margin-top: 10px;
+    font-size: 1.37em;
+    margin-bottom: 30px;
+}
+
+.button-span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-container .icon-span{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: white; */
+    width: 100px;
+}
+
+.text-container #btn_1:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #7777;
+    transition: all 0.5s;
+}
+
+.text-container #btn_2:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #5555;
+    transition: all 0.5s;
+}
